@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Product</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+
+    <header class="header">
+       
+        <div class="header__nav">
+
+            <div class="header__title">
+                Aplicacion de productos
+            </div>
+            <div class="header__add">
+                <button class="header__button">Agrega un producto</button>
+            </div>
+            
+            <div class="header__listado">
+                <div class="header__cart">
+                    <i id="header__icon" class="fa-solid fa-cart-shopping"></i>
+                </div>           
+            </div>     
+
+        </div>
+    </header>
+
+  
+
+
+    <section class="modal">
+
+        <div class="modal__container">
+            
+            <img src="img/Bag_object.svg" alt="Add product" class="modal__img">
+            <h2 class="modal__title">Agregando producto</h2>
+
+            <div class="productos-contenedor">
+                <form action="" id="add-product">
+
+                    <div class="contenedor__input">
+                        <input type="text" placeholder="Nombre del producto" id="productName" class="productos" required>
+                        <!-- <span class="text__error">*Completa el campo porfavor</span> -->
+                    </div>
+
+
+                    <div class="contenedor__input">
+                        <input type="text" placeholder="Precio" id="price" class="productos" required>
+                        <!-- <span class="text__error">*Completa el campo porfavor</span> -->
+                    </div>
+                   
+    
+                    <input type="submit" name="" id="" value="Agregar" class="btn">
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="added-products">
+
+
+    </section>
+
+
+
+
+    <script src="modal.js" type="module"></script>
+</body>
+</html>
